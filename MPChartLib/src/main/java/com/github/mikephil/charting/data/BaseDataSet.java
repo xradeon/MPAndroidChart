@@ -227,6 +227,12 @@ public abstract class BaseDataSet<T extends Entry> implements IDataSet<T> {
         mColors.add(color);
     }
 
+    /**
+     * Sets the start and end color for gradient colot, ONLY color that should be used for this DataSet.
+     *
+     * @param startColor
+     * @param endColor
+     */
     public void setGradientColor(int startColor, int endColor) {
         gradientColor = new GradientColor(startColor, endColor);
     }

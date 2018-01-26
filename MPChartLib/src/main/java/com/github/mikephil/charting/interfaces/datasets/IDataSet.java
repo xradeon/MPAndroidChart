@@ -286,6 +286,11 @@ public interface IDataSet<T extends Entry> {
      */
     int getColor();
 
+    /**
+     * Returns the Gradient color model
+     *
+     * @return
+     */
     GradientColor getGradientColor();
 
     /**
